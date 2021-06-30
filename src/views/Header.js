@@ -16,14 +16,6 @@ function Header() {
           <span className="brand__name">RentHouse</span>
         </Link>
       </div>
-      {/* <div className="header__Search">
-        <input
-          className="header__searchInput"
-          type="text"
-          placeholder="search by city name/ zip code"
-        />
-        <SearchIcon className="header_searchIcon" />
-      </div> */}
       <div className="header__nav">
         <Link to="/login">
           <div className="header__option">
@@ -31,10 +23,12 @@ function Header() {
             <span className="header__optionLineTwo"> SignIn</span>
           </div>
         </Link>
-        <div className="header__option">
-          <span className="header__optionLineOne">New User?</span>
-          <span className="header__optionLineTwo">Register</span>
-        </div>
+        <Link to="/register">
+          <div className="header__option">
+            <span className="header__optionLineOne">New User?</span>
+            <span className="header__optionLineTwo">Register</span>
+          </div>
+        </Link>
       </div>
     </div>
   );

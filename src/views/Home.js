@@ -12,7 +12,7 @@ let array = [
   {
     city: "Mumbai",
     image:
-      "https://images.pexels.com/photos/7064338/pexels-photo-7064338.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/4911475/pexels-photo-4911475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
   },
   {
     city: "Banglore",
@@ -43,11 +43,14 @@ function Home() {
         src="https://images.pexels.com/photos/453201/pexels-photo-453201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100%"
         alt="home landscape"
       />
+      <div className="welcome__note">
+        <strong>Welcome!</strong> <br></br> Search the house of your dreams{" "}
+      </div>
       <div className="home__Search">
         <input
           className="home__searchInput"
           type="text"
-          placeholder="search by city name/ zip code"
+          placeholder="search by city name or zip code"
         />
         <SearchIcon className="home_searchIcon" />
       </div>
