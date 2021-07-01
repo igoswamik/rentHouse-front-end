@@ -1,0 +1,23 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: space-around;
+    margin: 15rem 0;
+    align-items: center;
+}
+
+.inputItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 5rem;
+    width: 20rem;
+    justify-content: space-around;
+}
