@@ -1,12 +1,34 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
+import Notfound from "./Notfound";
+import CitySubHeader from "./CitySubHeader";
+import FilterBar from "./FilterBar";
+import {
+  Button,
+  Card,
+  CardHeader,
+  CardBody,
+  FormGroup,
+  Form,
+  Input,
+  Container,
+  Row,
+  Col,
+} from "reactstrap";
+import "./CityListPage.css";
 function CityListPage(props) {
   const { city } = useParams();
-  console.log(city);
+
   return (
-    <div>
-      <h1>List of Houses in {city} city</h1>
+    <div className="top__container">
+      <CitySubHeader city={city} />
+
+      <Container className="mt-3 list__container">
+        <div>
+          <FilterBar />
+        </div>
+        <Notfound />
+      </Container>
     </div>
   );
 }

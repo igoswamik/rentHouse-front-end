@@ -46,6 +46,7 @@ function Home() {
       <div className="welcome__note">
         <strong>Welcome!</strong> <br></br> Search the house of your dreams{" "}
       </div>
+
       <div className="home__Search">
         <input
           className="home__searchInput"
@@ -54,8 +55,9 @@ function Home() {
         />
         <SearchIcon className="home_searchIcon" />
       </div>
+
       <div className="home__container">
-        <h1>Featured Cities</h1>
+        <h1 className="feature">Featured Cities</h1>
         <div className="home__row">
           {array.map((ele) => {
             return <City city={ele.city} image={ele.image} />;
