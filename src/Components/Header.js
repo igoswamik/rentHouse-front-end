@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import { Link } from "react-router-dom";
-
+import Sidenav from "./Sidenav";
 function Header() {
   return (
     <div className="header">
@@ -29,6 +29,10 @@ function Header() {
             <span className="header__optionLineTwo">Register</span>
           </div>
         </Link>
+
+        <div className="header__option">
+          <Sidenav />
+        </div>
       </div>
     </div>
   );

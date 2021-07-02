@@ -2,9 +2,10 @@
   width: 100%;
   height: 60px;
   display: flex;
-  font-size: large;
+  font-size: 20px;
   font-weight: 700;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+  justify-content: space-between;
+  /* font-family: "ZCOOL QingKe HuangYou", cursive; */
   box-sizing: border-box;
   padding: 10px 5px;
   /* box-shadow: 5px 5px thistle; */
@@ -20,4 +21,18 @@
   padding-bottom: 10px;
   background-color: black;
   color: white;
+}
+.filter__options {
+  display: flex;
+  align-items: center;
+}
+#size,
+#price {
+  width: 60px;
+  font-size: 1em;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 15px;
+  border: 3px solid black;
+  border-radius: 5%;
 }
