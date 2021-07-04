@@ -19,7 +19,13 @@ function Sidenav() {
         <span class="closebtn" onClick={closeNav}>
           &times;
         </span>
-        <span>Profile</span>
+        <div className="side__profile">
+          <img
+            src="https://www.eguardtech.com/wp-content/uploads/2018/08/Network-Profile.png"
+            alt="side profile"
+          ></img>
+          <span>Profile</span>
+        </div>
         <span>Setting</span>
         <span>About</span>
         <span>SignOut</span>

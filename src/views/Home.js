@@ -7,7 +7,7 @@ let array = [
   {
     city: "Delhi",
     image:
-      "https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/1542620/pexels-photo-1542620.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
   },
   {
     city: "Mumbai",
