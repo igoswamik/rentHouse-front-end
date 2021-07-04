@@ -15,9 +15,11 @@ function Login() {
           <input type="password" placeholder="Password" required></input>
         </div>
       </div>
-      <button>Submit</button>
+      <button className="loginBtn">Submit</button>
     </form>
   </div>);
 }
+
+
 
 export default Login;

@@ -1,6 +1,6 @@
 import React from "react";
 
-import loginCss from "./Login.css"
+import loginCss from "./Register.css"
 
 function Register() {
   return (
@@ -19,8 +19,12 @@ function Register() {
           <label>Password:</label>
           <input type="password" placeholder="Password" required></input>
         </div>
+        <div className="inputItem">
+          <label>Confirm Password:</label>
+          <input type="password" placeholder="Confirm Password" required></input>
+        </div>
       </div>
-      <button>Submit</button>
+      <button className="loginBtn">Submit</button>
     </form>
   </div>);
 }
