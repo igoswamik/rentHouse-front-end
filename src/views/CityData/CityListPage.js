@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import Notfound from "./Notfound";
 import CitySubHeader from "./CitySubHeader";
 import FilterBar from "./FilterBar";
+import Post from "../Components/Post";
 import {
   Button,
   Card,
@@ -27,7 +28,14 @@ function CityListPage(props) {
         <div>
           <FilterBar />
         </div>
-        <Notfound />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        {/* <Notfound /> */}
       </Container>
     </div>
   );

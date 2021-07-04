@@ -57,7 +57,7 @@ function Home() {
       </div>
 
       <div className="home__container">
-        <h1 className="feature">Featured Cities</h1>
+        <h1 className="feature_heading">Featured Cities</h1>
         <div className="home__row">
           {array.map((ele) => {
             return <City city={ele.city} image={ele.image} />;

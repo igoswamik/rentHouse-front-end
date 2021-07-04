@@ -8,12 +8,14 @@ function Header() {
     <div className="header">
       <div className="header__brand">
         <Link to="/">
-        <div  className="header__logo"></div>
-          {/* <img
+          <div className="header__logo"></div>
+        </Link>
+        {/* <img
             className="header__logo"
             src="https://img.freepik.com/free-vector/house-logo-icon-negative-space-style_126523-692.jpg?size=626&ext=jpg"
             alt="logo"
           ></img> */}
+        <Link to="/">
           <span className="brand__name">RentHouse</span>
         </Link>
       </div>
