@@ -1,10 +1,14 @@
 import React from "react";
 
-import loginCss from "./Register.css"
+import "./Register.css"
 
 function Register() {
   return (
   <div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    <div className="goBack">
+      <a href='/'><i class="fa fa-home fa-5x"></i></a>
+    </div>
     <form className="loginForm">
       <div className="box">
         <div className="inputItem">
@@ -24,6 +28,7 @@ function Register() {
           <input type="password" placeholder="Confirm Password" required></input>
         </div>
       </div>
+      <p>Already registered? Login <a href='/login'>here</a></p>
       <button className="loginBtn">Submit</button>
     </form>
   </div>);

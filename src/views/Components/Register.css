@@ -55,3 +55,18 @@ label{
     font-weight: 800;
     font-family: cursive;
 }
+
+p {
+    font-family: cursive;
+    font-weight: 600;
+}
+
+i.fa.fa-home.fa-5x {
+    color: darkgray;
+    transition: all 0.5s ease-in-out 0.1s;
+}
+
+i.fa.fa-home.fa-5x:hover {
+    color: dimgray;
+    transform: scale(1.2);
+}
