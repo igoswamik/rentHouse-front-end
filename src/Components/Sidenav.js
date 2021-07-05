@@ -24,7 +24,7 @@ function Sidenav() {
             src="https://www.eguardtech.com/wp-content/uploads/2018/08/Network-Profile.png"
             alt="side profile"
           ></img>
-          <span>Profile</span>
+          <a href='/profile'><span>Profile</span></a>
         </div>
         <span>Setting</span>
         <span>About</span>

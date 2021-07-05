@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import CityListPage from "./views/CityData/CityListPage";
 import Login from "./views/Components/Login";
 import Register from "./views/Components/Register";
+import Profile from "./views/Components/Profile";
 function App() {
   return (
     <Router>
@@ -21,6 +22,10 @@ function App() {
           <Route path="/citydata/:city">
             <Header />
             <CityListPage />
+          </Route>
+          <Route path="/profile">
+            <Header />
+            <Profile />
           </Route>
           <Route path="/">
             <Header />

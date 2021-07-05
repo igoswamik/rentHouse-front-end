@@ -1,0 +1,36 @@
+.headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgb(19, 25, 33), transparent);
+    align-items: center;
+}
+
+.dp {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+    height: 3rem;
+}
+
+.edit {
+    position: relative;
+    left: 4rem;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.edit:hover {
+    transform: rotate(15deg);
+}
+
+i.fa.fa-gear {
+    transform: scale(2);
+    transition: all 0.3s ease-in-out 0s;
+}
+i.fa.fa-gear:hover {
+    transform: scale(2.5) rotate(45deg);
+}
