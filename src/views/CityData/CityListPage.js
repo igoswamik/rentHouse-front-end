@@ -4,6 +4,7 @@ import Notfound from "./Notfound";
 import CitySubHeader from "./CitySubHeader";
 import FilterBar from "./FilterBar";
 import Post from "../Components/Post";
+import PaginatedData from "./PaginatedData";
 import {
   Button,
   Card,
@@ -28,13 +29,7 @@ function CityListPage(props) {
         <div>
           <FilterBar />
         </div>
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <PaginatedData />
         {/* <Notfound /> */}
       </Container>
     </div>

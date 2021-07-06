@@ -32,7 +32,7 @@ function Post() {
                 <span className="row__optionLineTwo">3BHK</span>
               </div>
             </div>
-            <div className="row">
+            <div>
               East facing plot in gated society, near to park for more detail
               pls call
             </div>

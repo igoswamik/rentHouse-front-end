@@ -21,3 +21,14 @@
   font-weight: 700;
   text-shadow: 1px 2px white;
 }
+@media screen and (max-width: 800px) {
+  .top__heading {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .top__heading {
+    font-size: 1.1em;
+  }
+}
