@@ -34,3 +34,33 @@ i.fa.fa-gear {
 i.fa.fa-gear:hover {
     transform: scale(2.5) rotate(45deg);
 }
+
+.itm{
+    display: flex;
+    flex-direction: row;
+}
+
+.houseDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 14rem;
+    margin-left: 1.5rem;
+}
+
+.det {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.housePic {
+    border-radius: 30%;
+    margin: 2rem 0 0 2rem;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
